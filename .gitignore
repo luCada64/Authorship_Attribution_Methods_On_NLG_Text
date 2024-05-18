@@ -1,2 +1,3 @@
 chatgptApiKey.py
 .venv
+__pycache__
