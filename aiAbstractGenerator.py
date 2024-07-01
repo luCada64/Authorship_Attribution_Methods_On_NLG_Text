@@ -102,8 +102,11 @@ for abstract in aiAbstracts:
     text = abstract["text"]
     
     # Format The Title and Author So It may be used for file name
-    formatedAuthor = ''.join(letter for letter in author if letter.isalpha()).title()
-    formatedTitle = ''.join(letter for letter in title if letter.isalpha()).title()
+    # removes illegal characters: https://www.geeksforgeeks.org/python-removing-unwanted-characters-from-string/
+    formatedAuthor = ''.join(letter for letter in author if letter.isalpha())
+    formatedTitle = ''.join(letter for letter in title.title() if letter.isalpha()) #Made Each word upercase for legiblity
+
+    
     
     print(formatedAuthor,formatedTitle)
     
