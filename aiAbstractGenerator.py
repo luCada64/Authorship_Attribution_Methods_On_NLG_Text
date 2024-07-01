@@ -47,44 +47,57 @@ for abstract in authorInformation:
 # Section 3: Creating Abstract
 
 
-
 # Now that we have the prompts lets generate our reponese
 
 # Create a client for openAI chatGPT
 client = OpenAI(api_key=OPENAI_API_KEY)
 
 
+aiAbstracts = []
 
-# Let's run the modlue with the best code
-completion = client.chat.completions.create(
-  model="gpt-3.5-turbo",
-  messages= chatGPTcommands
-  )
+i = 0 
+# Let Generate our abstracts
+for prompt in chatGPTcommands:
+    completion = client.chat.completions.create(
+        model="gpt-3.5-turbo",
+        messages= [prompt]
+    )
+    
+    abstractText = completion.choices[0].message.content
+    author = authorInformation[i]["author"]
+    title = authorInformation[i]["title"]
+    
+    abstract = dict(title = title, author = author, content = abstractText)
+    
+    
+    aiAbstracts.append(abstract)
+    
+    i = i + i
+    
 
-print(completion.choices[0].message)
+
 
 
 
 # Section 4: Saving promptsprint("Deafult", type(messages))
 
 
+# # chatGPT work in reverse, so we must flip the author information
+# authorInformation.reverse()
 
-# chatGPT work in reverse, so we must flip the author information
-authorInformation.reverse()
-
-i = 0 
-for responses in completion.choices:
-    abstractText = responses.message.content
+# i = 0 
+# for responses in completion.choices:
+#     abstractText = responses.message.content
     
-    author = authorInformation[i]["author"]
-    title = authorInformation[i]["title"]
+#     author = authorInformation[i]["author"]
+#     title = authorInformation[i]["title"]
     
-    fileName = author + title
+#     fileName = author + title
     
-    # Lets Write the file
-    with open( "aiText/"+fileName+".txt" , "w") as savefile:
+#     # Lets Write the file
+#     with open( "aiText/"+fileName+".txt" , "w") as savefile:
     
-            # save the jason
-            savefile.write(abstractText)
+#             # save the jason
+#             savefile.write(abstractText)
             
-    i = i + 1
+    # i = i + 1
