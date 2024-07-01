@@ -1,4 +1,0 @@
-Title: Evaluating romantic attraction in Robots
-
-Abstract:
-This paper presents a method for evaluating the presence of romantic attraction in robots. By analyzing the behavior and interactions of robots with human subjects, we propose a computational model that assesses the level of emotional connection and intimacy displayed by the robots. Through a series of controlled experiments, we demonstrate the ability of robots to evoke feelings of romantic attraction in humans and suggest potential applications for this technology in the field of human-robot relationships. Additionally, we discuss the ethical implications of developing robots capable of eliciting romantic feelings and propose guidelines for responsible use of this technology.

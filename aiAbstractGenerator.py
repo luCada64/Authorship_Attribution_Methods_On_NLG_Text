@@ -93,14 +93,23 @@ for n in aiAbstracts:
 
 # Section 4: Saving prompt
 
-
+# For every AI abstract
 for abstract in aiAbstracts:
     
+    # remove the metadata
     author = abstract["author"]
     title = abstract["title"]
     text = abstract["text"]
     
-    fileName = "ai"+author+title
+    # Format The Title and Author So It may be used for file name
+    formatedAuthor = ''.join(letter for letter in author if letter.isalpha()).title()
+    formatedTitle = ''.join(letter for letter in title if letter.isalpha()).title()
+    
+    print(formatedAuthor,formatedTitle)
+    
+    
+    # create a file name
+    fileName = "ai---{}---{}".format(formatedAuthor,formatedTitle)
     
     # Lets Write the file
     with open( "aiText/"+fileName+".txt" , "w") as savefile:
