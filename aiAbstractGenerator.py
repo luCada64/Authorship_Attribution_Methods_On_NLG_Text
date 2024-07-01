@@ -14,7 +14,7 @@ from chatgptApiKey import OPENAI_API_KEY
 
 # This seciton of willl recive the information
 
-realAuthorInformation = [{'author':"Charles Dickens", 'title':"Why Scrooge Was Mean", 'year':1888},
+authorInformation = [{'author':"Charles Dickens", 'title':"Why Scrooge Was Mean", 'year':1888},
                          {'author':"Wes Anderson", 'title':"Is a square aspect ration better for comtemporay cinema?", 'year':2016}, 
                          {'author':"Alan Turing", 'title':"Evaluating romantic attraction in Robots", 'year':1956}]
 
@@ -24,7 +24,7 @@ realAuthorInformation = [{'author':"Charles Dickens", 'title':"Why Scrooge Was M
 chatGPTcommands = []
 
 # for every abstract
-for abstract in realAuthorInformation:
+for abstract in authorInformation:
     
     # Exctract that abstract metadata.
     author = abstract["author"]
@@ -66,13 +66,25 @@ print(completion.choices[0].message)
 
 
 # Section 4: Saving promptsprint("Deafult", type(messages))
+
+
+
+# chatGPT work in reverse, so we must flip the author information
+authorInformation.reverse()
+
+i = 0 
 for responses in completion.choices:
     abstractText = responses.message.content
     
-
-# This is a helper function that write the data
-def saveJSON(fileName, data):
-    with open( ouput_data+fileName , "w") as savefile:
+    author = authorInformation[i]["author"]
+    title = authorInformation[i]["title"]
+    
+    fileName = author + title
+    
+    # Lets Write the file
+    with open( "aiText/"+fileName+".txt" , "w") as savefile:
     
             # save the jason
-            savefile.write(data)
+            savefile.write(abstractText)
+            
+    i = i + 1
