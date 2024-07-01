@@ -23,24 +23,24 @@ authorInformation = [{'author':"Charles Dickens", 'title':"Why Scrooge Was Mean"
 # This section of the code will generate the messages for chat gpt.
 chatGPTcommands = []
 
-# for every abstract
-for abstract in authorInformation:
+# # for every abstract
+# for abstract in authorInformation:
     
-    # Exctract that abstract metadata.
-    author = abstract["author"]
-    title = abstract["title"]
-    year = abstract["year"]
+#     # Exctract that abstract metadata.
+#     author = abstract["author"]
+#     title = abstract["title"]
+#     year = abstract["year"]
     
-    # Creates the unique promt for the particular paper
-    question = """Write a scientifc abstract in the style of {} with the title "{}" published in the year {}""".format(author, title, year)
+#     # Creates the unique promt for the particular paper
+#     question = """Write a scientifc abstract in the style of {} with the title "{}" published in the year {}""".format(author, title, year)
     
-    # Format the question for chatGPT to be intrepered
-    prompt = dict(role = "user", content = question)
+#     # Format the question for chatGPT to be intrepered
+#     prompt = dict(role = "user", content = question)
     
-    # prompt = {"role": "user", "content": question},
+#     # prompt = {"role": "user", "content": question},
     
-    # Append our probmt to the list
-    chatGPTcommands.append(prompt)
+#     # Append our probmt to the list
+#     chatGPTcommands.append(prompt)
 
 
 
@@ -55,28 +55,37 @@ client = OpenAI(api_key=OPENAI_API_KEY)
 
 aiAbstracts = []
 
-i = 0 
+
 # Let Generate our abstracts
-for prompt in chatGPTcommands:
+for abstract in authorInformation:
+    
+    # Exctract that abstract metadata.
+    author = abstract["author"]
+    title = abstract["title"]
+    year = abstract["year"]
+    
+    # Creates the unique promt for the particular paper
+    question = """Write a scientifc abstract in the style of {} with the title "{}" published in the year {}""".format(author, title, year)
+    
+    prompt = {"role": "user", "content": question},
+    
     completion = client.chat.completions.create(
         model="gpt-3.5-turbo",
         messages= [prompt]
     )
     
     abstractText = completion.choices[0].message.content
-    author = authorInformation[i]["author"]
-    title = authorInformation[i]["title"]
+  
+    currentAiAbstract = dict(title = title, author = author, text = abstractText)
     
-    abstract = dict(title = title, author = author, content = abstractText)
-    
-    
-    aiAbstracts.append(abstract)
-    
-    i = i + i
+    aiAbstracts.append(currentAiAbstract)
     
 
-
-
+print("\n")
+for n in aiAbstracts:
+    print("{} by ai {}".format(n['title'], n['author'] ))
+    print(n['content'])
+    print("\n\n\n")
 
 
 # Section 4: Saving promptsprint("Deafult", type(messages))
