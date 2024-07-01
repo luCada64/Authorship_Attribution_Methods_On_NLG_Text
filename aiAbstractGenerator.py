@@ -64,15 +64,18 @@ for abstract in authorInformation:
     title = abstract["title"]
     year = abstract["year"]
     
+    
     # Creates the unique promt for the particular paper
     question = """Write a scientifc abstract in the style of {} with the title "{}" published in the year {}""".format(author, title, year)
     
-    prompt = {"role": "user", "content": question},
+    prompt = dict(role= "user", content= question)
     
     completion = client.chat.completions.create(
         model="gpt-3.5-turbo",
         messages= [prompt]
     )
+    
+    
     
     abstractText = completion.choices[0].message.content
   
@@ -84,29 +87,24 @@ for abstract in authorInformation:
 print("\n")
 for n in aiAbstracts:
     print("{} by ai {}".format(n['title'], n['author'] ))
-    print(n['content'])
+    print(n['text'])
     print("\n\n\n")
 
 
-# Section 4: Saving promptsprint("Deafult", type(messages))
+# Section 4: Saving prompt
 
 
-# # chatGPT work in reverse, so we must flip the author information
-# authorInformation.reverse()
-
-# i = 0 
-# for responses in completion.choices:
-#     abstractText = responses.message.content
+for abstract in aiAbstracts:
     
-#     author = authorInformation[i]["author"]
-#     title = authorInformation[i]["title"]
+    author = abstract["author"]
+    title = abstract["title"]
+    text = abstract["text"]
     
-#     fileName = author + title
+    fileName = "ai"+author+title
     
-#     # Lets Write the file
-#     with open( "aiText/"+fileName+".txt" , "w") as savefile:
+    # Lets Write the file
+    with open( "aiText/"+fileName+".txt" , "w") as savefile:
     
-#             # save the jason
-#             savefile.write(abstractText)
+            # save the jason
+            savefile.write(text)
             
-    # i = i + 1
