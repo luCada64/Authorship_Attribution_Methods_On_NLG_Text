@@ -1,5 +1,5 @@
 # Section 1: Packages
-
+import pandas as pd
 from openai import OpenAI
 
 # To run this code you must create a .py file with a global varabile named "OPENAI_API_KEY"
@@ -14,9 +14,19 @@ from chatgptApiKey import OPENAI_API_KEY
 
 # This seciton of willl recive the information
 
-authorInformation = [{'author':"Charles Dickens", 'title':"Why Scrooge Was Mean", 'year':1888},
-                         {'author':"Wes Anderson", 'title':"Is a square aspect ration better for comtemporay cinema?", 'year':2016}, 
+authorInformation = [{'author':"Charles Dickens", 'title':"Why Scrooge Was Mean", 'year':1888},{'author':"Wes Anderson", 'title':"Is a square aspect ration better for comtemporay cinema?", 'year':2016}, 
                          {'author':"Alan Turing", 'title':"Evaluating romantic attraction in Robots", 'year':1956}]
+
+authorInformation = [] # This will store all the author information
+
+# We will use the CSV file hummanBibliograthy, which contains the author name, title and year.
+humanPoems = pd.read_csv("hummanBibliograthy.csv")
+
+
+for index, row in humanPoems.iterrows():
+    poemData = dict(author=row["Author"], title=row["Title"]  ,year=row["Year"])
+    
+    authorInformation.append(poemData)
 
 
 
