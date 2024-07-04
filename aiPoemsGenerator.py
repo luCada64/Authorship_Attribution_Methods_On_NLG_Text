@@ -35,20 +35,20 @@ chatGPTcommands = []
 client = OpenAI(api_key=OPENAI_API_KEY)
 
 
-aiAbstracts = []
+aiPoems = []
 
 
-# Let Generate our abstracts
-for abstract in authorInformation:
+# Let Generate our Poems
+for poem in authorInformation:
     
     # Exctract that abstract metadata.
-    author = abstract["author"]
-    title = abstract["title"]
-    year = abstract["year"]
+    author = poem["author"]
+    title = poem["title"]
+    year = poem["year"]
     
     
     # Creates the unique promt for the particular paper
-    question = """Write a scientifc abstract in the style of {} with the title "{}" published in the year {}""".format(author, title, year)
+    question = """Write a poem in the style of {} with the title "{}" published in the year {}""".format(author, title, year)
     
     prompt = dict(role= "user", content= question)
     
@@ -58,16 +58,15 @@ for abstract in authorInformation:
     )
     
     
-    
-    abstractText = completion.choices[0].message.content
+    poemText = completion.choices[0].message.content
   
-    currentAiAbstract = dict(title = title, author = author, text = abstractText)
+    currentAiPoem = dict(title = title, author = author, text = poemText)
     
-    aiAbstracts.append(currentAiAbstract)
+    aiPoems.append(currentAiPoem)
     
 
 print("\n")
-for n in aiAbstracts:
+for n in aiPoems:
     print("{} by ai {}".format(n['title'], n['author'] ))
     print(n['text'])
     print("\n\n\n")
@@ -75,13 +74,13 @@ for n in aiAbstracts:
 
 # Section 4: Saving prompt
 
-# For every AI abstract
-for abstract in aiAbstracts:
+# For every AI Poem
+for poem in aiPoems:
     
     # remove the metadata
-    author = abstract["author"]
-    title = abstract["title"]
-    text = abstract["text"]
+    author = poem["author"]
+    title = poem["title"]
+    text = poem["text"]
     
     # Format The Title and Author So It may be used for file name
     # removes illegal characters: https://www.geeksforgeeks.org/python-removing-unwanted-characters-from-string/
