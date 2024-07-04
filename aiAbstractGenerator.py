@@ -71,7 +71,7 @@ for abstract in authorInformation:
     prompt = dict(role= "user", content= question)
     
     completion = client.chat.completions.create(
-        model="gpt-3.5-turbo",
+        model="gpt-4o",#"gpt-3.5-turbo",
         messages= [prompt]
     )
     
@@ -115,7 +115,7 @@ for abstract in aiAbstracts:
     fileName = "ai---{}---{}".format(formatedAuthor,formatedTitle)
     
     # Lets Write the file
-    with open( "aiText/"+fileName+".txt" , "w") as savefile:
+    with open( "ai-Corpus/"+fileName+".txt" , "w") as savefile:
     
             # save the jason
             savefile.write(text)
