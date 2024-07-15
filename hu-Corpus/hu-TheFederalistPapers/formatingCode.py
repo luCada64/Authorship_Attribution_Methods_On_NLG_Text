@@ -2,6 +2,27 @@
 # The title, the author and year for each paper
 
 
+def saveFile(title, author, year, text):
+    
+    author = ''.join(letter for letter in author if letter.isalpha())
+    title = ''.join(letter for letter in title.title() if letter.isalpha())
+    
+    
+    file = "hu---{}---{}---{}".format(author, title, str(year))
+    
+    
+    with open( file , "w") as savefile:
+    
+            text = "\n".join(text)
+    
+            savefile.write(text)
+    
+    
+    print("Saving file: {} by {} in the year {}".format(title, author, year))
+
+
+
+
 
 
 
@@ -27,6 +48,7 @@ with open("hu-Corpus/hu-TheFederalistPapers/complete-Federalist-Paper.txt", mode
     currentPaper = []
     
     index = 0
+    paperNum = ""
     current_author = ""
     currrent_title = ""
     current_year = 0000
@@ -48,13 +70,11 @@ with open("hu-Corpus/hu-TheFederalistPapers/complete-Federalist-Paper.txt", mode
         if line[:14] == "FEDERALIST No.":
             
     
-            print("\n\n\n"+line+"\n")
-            
             # Lets get out the old text
             previous_text = completePapers_lines[:index-1]
             
             # save the data
-            print(previous_text)
+            saveFile(currrent_title, current_author, current_year, previous_text)
             
             
             
