@@ -1,5 +1,5 @@
 # Section 1: Packages
-
+import pandas as pd
 from openai import OpenAI
 
 # To run this code you must create a .py file with a global varabile named "OPENAI_API_KEY"
@@ -14,10 +14,16 @@ from chatgptApiKey import OPENAI_API_KEY
 
 # This seciton of willl recive the information
 
-authorInformation = [{'author':"Charles Dickens", 'title':"Why Scrooge Was Mean", 'year':1888},
-                         {'author':"Wes Anderson", 'title':"Is a square aspect ration better for comtemporay cinema?", 'year':2016}, 
-                         {'author':"Alan Turing", 'title':"Evaluating romantic attraction in Robots", 'year':1956}]
+authorInformation = [] # This will store all the author information
 
+# We will use the CSV file hummanBibliograthy, which contains the author name, title and year.
+humanPoems = pd.read_csv("bibligorath.csv", escapechar='"')
+
+
+for index, row in humanPoems.iterrows():
+    poemData = dict(author=row["Author"], title=row["Title"]  ,year=row["Year"])
+    
+    authorInformation.append(poemData)
 
 
 # This section of the code will generate the messages for chat gpt.
@@ -37,7 +43,7 @@ client = OpenAI(api_key=OPENAI_API_KEY)
 
 aiPoems = []
 
-
+print("Communicating with chatGPT")
 # Let Generate our Poems
 for poem in authorInformation:
     
@@ -46,6 +52,8 @@ for poem in authorInformation:
     title = poem["title"]
     year = poem["year"]
     
+    
+    print("generating: {} by {} in the year {}".format(title, author, year))
     
     # Creates the unique promt for the particular paper
     question = """Write a poem in the style of {} with the title "{}" published in the year {}""".format(author, title, year)
@@ -65,12 +73,8 @@ for poem in authorInformation:
     aiPoems.append(currentAiPoem)
     
 
-print("\n")
-for n in aiPoems:
-    print("{} by ai {}".format(n['title'], n['author'] ))
-    print(n['text'])
-    print("\n\n\n")
 
+print("Saving AI Data")
 
 # Section 4: Saving prompt
 

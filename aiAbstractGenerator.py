@@ -14,13 +14,11 @@ from chatgptApiKey import OPENAI_API_KEY
 
 # This seciton of willl recive the information
 
-authorInformation = [{'author':"Charles Dickens", 'title':"Why Scrooge Was Mean", 'year':1888},{'author':"Wes Anderson", 'title':"Is a square aspect ration better for comtemporay cinema?", 'year':2016}, 
-                         {'author':"Alan Turing", 'title':"Evaluating romantic attraction in Robots", 'year':1956}]
 
 authorInformation = [] # This will store all the author information
 
 # We will use the CSV file hummanBibliograthy, which contains the author name, title and year.
-humanPoems = pd.read_csv("hummanBibliograthy.csv")
+humanPoems = pd.read_csv("bibligorath.csv")
 
 
 for index, row in humanPoems.iterrows():
