@@ -36,6 +36,8 @@ with open("hu-Corpus/hu-TheFederalistPapers/complete-Federalist-Paper.txt", mode
     
     for line in completePapers_lines:
         
+        if line[:3] == "***":
+            break
         
         
         # Add a break clause
