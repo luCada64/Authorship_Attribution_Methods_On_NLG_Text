@@ -60,7 +60,8 @@ with open("hu-Corpus/hu-TheFederalistPapers/complete-Federalist-Paper.txt", mode
             
             title = completePapers_lines[2]
             
-            year = completePapers_lines[4][-4:]
+            # TO fix year code
+            year = completePapers_lines[4][-4:] 
             
             author = completePapers_lines[6]
             
