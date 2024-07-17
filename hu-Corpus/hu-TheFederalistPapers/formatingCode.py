@@ -36,14 +36,6 @@ with open("hu-Corpus/hu-TheFederalistPapers/complete-Federalist-Paper.txt", mode
     # Get the text into a format 
     completePapers = file.read()
     completePapers_lines = completePapers.split('\n')
-
-    
-    # # Skip until the program find the first paper
-    # index = 0
-    # while completePapers_lines[index] != "FEDERALIST No. 1":
-        
-    #     # Let find the index
-    #     index = index+1
         
     
     # Remove the unseary lines
@@ -90,9 +82,9 @@ with open("hu-Corpus/hu-TheFederalistPapers/complete-Federalist-Paper.txt", mode
                 text.append(completePapers_lines[index])
                 
                 index = index + 1
-                
+        
             # Now that we got all the conent we may save it
-            saveFile(title, author, year, text )
+            saveFile(paperNum+title, author, year, text )
             
             
             # Now we need to remove all the lines up to that point
