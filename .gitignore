@@ -2,3 +2,5 @@ chatgptApiKey.py
 .venv
 __pycache__
 hu-Poems
+.DS_Store
+hu-Corpus/.DS_Store
