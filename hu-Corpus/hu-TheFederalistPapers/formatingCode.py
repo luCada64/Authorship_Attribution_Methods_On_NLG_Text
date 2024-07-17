@@ -93,8 +93,3 @@ with open("hu-Corpus/hu-TheFederalistPapers/complete-Federalist-Paper.txt", mode
             # Now we need to remove all the lines up to that point
             completePapers_lines = completePapers_lines[index:]
             
-            exit()
-
-        
-
-        
