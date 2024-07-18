@@ -4,6 +4,8 @@
 # An assumption we are making is that all paper credide as "Madison with Hamiloton" as just madison for consitency
 
 
+
+
 def saveFile(title, author, year, text):
 
 
@@ -43,8 +45,10 @@ with open("hu-Corpus/hu-TheFederalistPapers/complete-Federalist-Paper.txt", mode
     # Remove the unseary lines
     completePapers_lines = completePapers_lines[36:]
     
-    # Create bib file
-    saveBib("Title", "Author", "Year")
+    # Create bib file and formating it
+    bib = open('hu-Corpus/fedBiblograthy.csv', 'w')
+    bib.write("Title,Author,Year\n")
+    bib.close()
     
     index = 0
     paperNum = ""

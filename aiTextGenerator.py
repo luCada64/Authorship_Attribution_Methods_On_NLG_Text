@@ -15,16 +15,7 @@ output_loc = "ai-Corpus/ai-FederalistPaper/"
 # bibligorathy_loc = "hu-Corpus/poemsBiblograthy.csv"
 # output_loc = "ai-Corpus/ai-poem/"
 
-
-
-
-# this is the prompt that is sent chatGPT to be generated, must included {} with the order author, title, year. 
-# If you want to change the order edited the ".format(…)" that output to the varible "question"
-
-prompt = """Write a political paper in the style of {} with the title "{}" published in the year {}"""
-
-# prompt = 'Write a scientifc abstract in the style of {} with the title "{}" published in the year {}' # Scientific abstract examples 
-# prompt = """Write a poem in the style of {} with the title "{}" published in the year {}""" # Romantic Poetry example
+# If you'd like to update the promt you must edit the string named "prompt"
 
 # Section 2: Creating Prompts 
 
@@ -73,7 +64,7 @@ for abstract in authorInformation:
     
     # Creates the unique promt for the particular paper.
     
-    question = prompt.format(author, title, year)
+    question = """Write a political paper in the style of {} with the title "{}" published in the year {}""".format(author, title, year)
     
     prompt = dict(role= "user", content= question)
     
@@ -83,7 +74,7 @@ for abstract in authorInformation:
     )
     
     
-    
+    print(title, "Complete")
     abstractText = completion.choices[0].message.content
   
     currentAiAbstract = dict(title = title, author = author, text = abstractText)
@@ -94,6 +85,7 @@ for abstract in authorInformation:
 
 # Section 4: Saving prompt
 
+print("Saving Data")
 # For every AI abstract
 for abstract in aiAbstracts:
     
