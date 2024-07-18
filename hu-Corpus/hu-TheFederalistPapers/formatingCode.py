@@ -47,7 +47,7 @@ with open("hu-Corpus/hu-TheFederalistPapers/complete-Federalist-Paper.txt", mode
     
     # Create bib file and formating it
     bib = open('hu-Corpus/fedBiblograthy.csv', 'w')
-    bib.write("Title,Author,Year\n")
+    bib.write("Author,Title,Year\n")
     bib.close()
     
     index = 0
@@ -129,4 +129,4 @@ with open("hu-Corpus/hu-TheFederalistPapers/complete-Federalist-Paper.txt", mode
             completePapers_lines = completePapers_lines[index:]
         
     
-    exit()
+exit()
