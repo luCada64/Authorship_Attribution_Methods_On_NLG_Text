@@ -1363,7 +1363,7 @@ FEDERALIST No. 8
 
 The Consequences of Hostilities Between the States
 
-From the New York Packet. Tuesday, November 20, 1787.
+From the New York Packet. Tuesday, November 20, 17[0-9][0-9]
 
 HAMILTON
 
@@ -1792,7 +1792,7 @@ FEDERALIST No. 10
 
 The Same Subject Continued (The Union as a Safeguard Against Domestic Faction and Insurrection)
 
-From the Daily Advertiser. Thursday, November 22, 1787.
+From the Daily Advertiser. Thursday, November 22, 1787
 
 MADISON
 
@@ -2344,7 +2344,7 @@ FEDERALIST No. 12
 
 The Utility of the Union In Respect to Revenue
 
-From the New York Packet. Tuesday, November 27, 1787.
+From the New York Packet. Tuesday, November 27, 1787
 
 HAMILTON
 
@@ -2666,7 +2666,7 @@ FEDERALIST No. 14
 
 Objections to the Proposed Constitution From Extent of Territory Answered
 
-From the New York Packet. Friday, November 30, 1787.
+From the New York Packet. Friday, November 30, 1787
 
 MADISON
 
@@ -3181,7 +3181,7 @@ FEDERALIST No. 16
 
 The Same Subject Continued (The Insufficiency of the Present Confederation to Preserve the Union)
 
-From the New York Packet. Tuesday, December 4, 1787.
+From the New York Packet. Tuesday, December 4, 1787
 
 HAMILTON
 
@@ -4012,7 +4012,7 @@ FEDERALIST No. 20
 
 The Same Subject Continued (The Insufficiency of the Present Confederation to Preserve the Union)
 
-From the New York Packet. Tuesday, December 11, 1787.
+From the New York Packet. Tuesday, December 11, 1787
 
 MADISON, with HAMILTON
 
@@ -4402,7 +4402,7 @@ FEDERALIST No. 22
 
 The Same Subject Continued (Other Defects of the Present Confederation)
 
-From the New York Packet. Friday, December 14, 1787.
+From the New York Packet. Friday, December 14, 1787
 
 HAMILTON
 
@@ -4755,7 +4755,7 @@ FEDERALIST No. 23
 
 The Necessity of a Government as Energetic as the One Proposed to the Preservation of the Union
 
-From the New York Packet. Tuesday, December 18, 1787.
+From the New York Packet. Tuesday, December 18, 1787
 
 HAMILTON
 
@@ -5143,7 +5143,7 @@ FEDERALIST No. 25
 
 The Same Subject Continued (The Powers Necessary to the Common Defense Further Considered)
 
-From the New York Packet. Friday, December 21, 1787.
+From the New York Packet. Friday, December 21, 1787
 
 HAMILTON
 
@@ -5574,7 +5574,7 @@ FEDERALIST No. 27
 
 The Same Subject Continued (The Idea of Restraining the Legislative Authority in Regard to the Common Defense Considered)
 
-From the New York Packet. Tuesday, December 25, 1787.
+From the New York Packet. Tuesday, December 25, 1787
 
 HAMILTON
 
@@ -6112,7 +6112,7 @@ FEDERALIST No. 30
 
 Concerning the General Power of Taxation
 
-From the New York Packet. Friday, December 28, 1787.
+From the New York Packet. Friday, December 28, 1787
 
 HAMILTON
 
@@ -6307,7 +6307,7 @@ FEDERALIST No. 31
 
 The Same Subject Continued (Concerning the General Power of Taxation)
 
-From the New York Packet. Tuesday, January 1, 1788.
+From the New York Packet. Tuesday, January 1, 1788
 
 HAMILTON
 
@@ -6484,7 +6484,7 @@ FEDERALIST No. 32
 
 The Same Subject Continued (Concerning the General Power of Taxation)
 
-From The Independent Journal. Wednesday, January 2, 1788.
+From The Independent Journal. Wednesday, January 2, 1788
 
 HAMILTON
 
@@ -6632,7 +6632,7 @@ FEDERALIST No. 33
 
 The Same Subject Continued (Concerning the General Power of Taxation)
 
-From The Independent Journal. Wednesday, January 2, 1788.
+From The Independent Journal. Wednesday, January 2, 1788
 
 HAMILTON
 
@@ -6799,7 +6799,7 @@ FEDERALIST No. 34
 
 The Same Subject Continued (Concerning the General Power of Taxation)
 
-From The Independent Journal. Saturday, January 5, 1788.
+From The Independent Journal. Saturday, January 5, 1788
 
 HAMILTON
 
@@ -7238,7 +7238,7 @@ FEDERALIST No. 36
 
 The Same Subject Continued (Concerning the General Power of Taxation)
 
-From the New York Packet. Tuesday, January 8, 1788.
+From the New York Packet. Tuesday, January 8, 1788
 
 HAMILTON
 
@@ -7527,7 +7527,7 @@ FEDERALIST No. 37
 
 Concerning the Difficulties of the Convention in Devising a Proper Form of Government.
 
-From the Daily Advertiser. Friday, January 11, 1788.
+From the Daily Advertiser. Friday, January 11, 1788
 
 MADISON
 
@@ -7801,7 +7801,7 @@ FEDERALIST No. 38
 
 The Same Subject Continued, and the Incoherence of the Objections to the New Plan Exposed.
 
-From The Independent Journal. Saturday, January 12, 1788.
+From The Independent Journal. Saturday, January 12, 1788
 
 MADISON
 
@@ -8371,7 +8371,7 @@ PUBLIUS
 
 FEDERALIST No. 40
 
-On the Powers of the Convention to Form a Mixed Government Examined and Sustained For the New York Packet. Friday, January 18, 1788.
+On the Powers of the Convention to Form a Mixed Government Examined and Sustained For the New York Packet. Friday, January 18, 1788
 
 MADISON
 
@@ -9037,7 +9037,7 @@ FEDERALIST No. 42
 
 The Powers Conferred by the Constitution Further Considered
 
-From the New York Packet. Tuesday, January 22, 1788.
+From the New York Packet. Tuesday, January 22, 1788
 
 MADISON
 
@@ -9680,7 +9680,7 @@ FEDERALIST No. 44
 
 Restrictions on the Authority of the Several States
 
-From the New York Packet. Friday, January 25, 1788.
+From the New York Packet. Friday, January 25, 1788
 
 MADISON
 
@@ -10195,7 +10195,7 @@ FEDERALIST No. 46
 
 The Influence of the State and Federal Governments Compared
 
-From the New York Packet. Tuesday, January 29, 1788.
+From the New York Packet. Tuesday, January 29, 1788
 
 MADISON
 
@@ -10450,7 +10450,7 @@ FEDERALIST No. 47
 
 The Particular Structure of the New Government and the Distribution of Power Among Its Different Parts.
 
-For the Independent Journal. Wednesday, January 30, 1788.
+For the Independent Journal. Wednesday, January 30, 1788
 
 MADISON
 
@@ -10737,7 +10737,7 @@ FEDERALIST No. 48
 
 These Departments Should Not Be So Far Separated as to Have No Constitutional Control Over Each Other.
 
-From the New York Packet. Friday, February 1, 1788.
+From the New York Packet. Friday, February 1, 1788
 
 MADISON
 
@@ -10939,7 +10939,7 @@ FEDERALIST No. 49
 
 Method of Guarding Against the Encroachments of Any One Department of Government by Appealing to the People Through a Convention.
 
-For the Independent Journal. Saturday, February 2, 1788.
+For the Independent Journal. Saturday, February 2, 1788
 
 MADISON
 
@@ -11112,7 +11112,7 @@ FEDERALIST No. 50
 
 Periodical Appeals to the People Considered
 
-From the New York Packet. Tuesday, February 5, 1788.
+From the New York Packet. Tuesday, February 5, 1788
 
 MADISON
 
@@ -11241,7 +11241,7 @@ FEDERALIST No. 51
 
 The Structure of the Government Must Furnish the Proper Checks and Balances Between the Different Departments.
 
-For the Independent Journal. Wednesday, February 6, 1788.
+For the Independent Journal. Wednesday, February 6, 1788
 
 MADISON
 
@@ -11436,7 +11436,7 @@ FEDERALIST No. 52
 
 The House of Representatives
 
-From the New York Packet. Friday, February 8, 1788.
+From the New York Packet. Friday, February 8, 1788
 
 MADISON
 
@@ -11622,7 +11622,7 @@ FEDERALIST No. 53
 
 The Same Subject Continued (The House of Representatives)
 
-For the Independent Journal. Saturday, February 9, 1788.
+For the Independent Journal. Saturday, February 9, 1788
 
 MADISON
 
@@ -11838,7 +11838,7 @@ FEDERALIST No. 54
 
 The Apportionment of Members Among the States
 
-From the New York Packet. Tuesday, February 12, 1788.
+From the New York Packet. Tuesday, February 12, 1788
 
 MADISON
 
@@ -12038,7 +12038,7 @@ FEDERALIST No. 55
 
 The Total Number of the House of Representatives
 
-For the Independent Journal. Wednesday, February 13, 1788.
+For the Independent Journal. Wednesday, February 13, 1788
 
 MADISON
 
@@ -12237,7 +12237,7 @@ FEDERALIST No. 56
 
 The Same Subject Continued (The Total Number of the House of Representatives)
 
-For the Independent Journal. Saturday, February 16, 1788.
+For the Independent Journal. Saturday, February 16, 1788
 
 MADISON
 
@@ -12412,7 +12412,7 @@ FEDERALIST No. 57
 
 The Alleged Tendency of the New Plan to Elevate the Few at the Expense of the Many Considered in Connection with Representation.
 
-From the New York Packet. Tuesday, February 19, 1788.
+From the New York Packet. Tuesday, February 19, 1788
 
 MADISON
 
@@ -12643,7 +12643,7 @@ FEDERALIST No. 58
 
 Objection That The Number of Members Will Not Be Augmented as the Progress of Population Demands.
 
-Considered For the Independent Journal Wednesday, February 20, 1788.
+Considered For the Independent Journal Wednesday, February 20, 1788
 
 MADISON
 
@@ -12860,7 +12860,7 @@ FEDERALIST No. 59
 
 Concerning the Power of Congress to Regulate the Election of Members
 
-From the New York Packet. Friday, February 22, 1788.
+From the New York Packet. Friday, February 22, 1788
 
 HAMILTON
 
@@ -13053,7 +13053,7 @@ FEDERALIST No. 60
 
 The Same Subject Continued (Concerning the Power of Congress to Regulate the Election of Members)
 
-From The Independent Journal. Saturday, February 23, 1788.
+From The Independent Journal. Saturday, February 23, 1788
 
 HAMILTON
 
@@ -13275,7 +13275,7 @@ FEDERALIST No. 61
 
 The Same Subject Continued (Concerning the Power of Congress to Regulate the Election of Members)
 
-From the New York Packet. Tuesday, February 26, 1788.
+From the New York Packet. Tuesday, February 26, 1788
 
 HAMILTON
 
@@ -13979,7 +13979,7 @@ FEDERALIST No. 64
 
 The Powers of the Senate
 
-From The Independent Journal. Wednesday, March 5, 1788.
+From The Independent Journal. Wednesday, March 5, 1788
 
 JAY
 
@@ -14209,7 +14209,7 @@ FEDERALIST No. 65
 
 The Powers of the Senate Continued
 
-From the New York Packet. Friday, March 7, 1788.
+From the New York Packet. Friday, March 7, 1788
 
 HAMILTON
 
@@ -14410,7 +14410,7 @@ FEDERALIST No. 66
 
 Objections to the Power of the Senate To Set as a Court for Impeachments Further Considered.
 
-From The Independent Journal. Saturday, March 8, 1788.
+From The Independent Journal. Saturday, March 8, 1788
 
 HAMILTON
 
@@ -14636,7 +14636,7 @@ FEDERALIST No. 67
 
 The Executive Department
 
-From the New York Packet. Tuesday, March 11, 1788.
+From the New York Packet. Tuesday, March 11, 1788
 
 HAMILTON
 
@@ -14811,7 +14811,7 @@ FEDERALIST No. 68
 
 The Mode of Electing the President
 
-From The Independent Journal. Wednesday, March 12, 1788.
+From The Independent Journal. Wednesday, March 12, 1788
 
 HAMILTON
 
@@ -14972,7 +14972,7 @@ FEDERALIST No. 69
 
 The Real Character of the Executive
 
-From the New York Packet. Friday, March 14, 1788.
+From the New York Packet. Friday, March 14, 1788
 
 HAMILTON
 
@@ -15257,7 +15257,7 @@ FEDERALIST No. 70
 
 The Executive Department Further Considered
 
-From The Independent Journal. Saturday, March 15, 1788.
+From The Independent Journal. Saturday, March 15, 1788
 
 HAMILTON
 
@@ -15599,7 +15599,7 @@ FEDERALIST No. 71
 
 The Duration in Office of the Executive
 
-From the New York Packet. Tuesday, March 18, 1788.
+From the New York Packet. Tuesday, March 18, 1788
 
 HAMILTON
 
@@ -15770,7 +15770,7 @@ FEDERALIST No. 72
 
 The Same Subject Continued, and Re-Eligibility of the Executive Considered.
 
-From The Independent Journal. Wednesday, March 19, 1788.
+From The Independent Journal. Wednesday, March 19, 1788
 
 HAMILTON
 
@@ -15978,7 +15978,7 @@ FEDERALIST No. 73
 
 The Provision For The Support of the Executive, and the Veto Power
 
-From the New York Packet. Friday, March 21, 1788.
+From the New York Packet. Friday, March 21, 1788
 
 HAMILTON
 
@@ -16212,7 +16212,7 @@ FEDERALIST No. 74
 
 The Command of the Military and Naval Forces, and the Pardoning Power of the Executive.
 
-From the New York Packet. Tuesday, March 25, 1788.
+From the New York Packet. Tuesday, March 25, 1788
 
 HAMILTON
 
@@ -16503,7 +16503,7 @@ FEDERALIST No. 76
 
 The Appointing Power of the Executive
 
-From the New York Packet. Tuesday, April 1, 1788.
+From the New York Packet. Tuesday, April 1, 1788
 
 HAMILTON
 
@@ -16695,7 +16695,7 @@ FEDERALIST No. 77
 
 The Appointing Power Continued and Other Powers of the Executive Considered.
 
-From The Independent Journal. Wednesday, April 2, 1788.
+From The Independent Journal. Wednesday, April 2, 1788
 
 HAMILTON
 
@@ -17323,7 +17323,7 @@ FEDERALIST No. 80
 
 The Powers of the Judiciary
 
-From McLEAN's Edition, New York. Wednesday, May 28, 1788.
+From McLEAN's Edition, New York. Wednesday, May 28, 1788
 
 HAMILTON
 
@@ -17583,7 +17583,7 @@ FEDERALIST No. 81
 
 The Judiciary Continued, and the Distribution of the Judicial Authority.
 
-From McLEAN's Edition, New York. Wednesday, May 28, 1788.
+From McLEAN's Edition, New York. Wednesday, May 28, 1788
 
 HAMILTON
 
