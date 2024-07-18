@@ -19,7 +19,15 @@ def saveFile(title, author, year, text):
     
     print("Saving file: {} by {} in the year {}".format(title, author, year))
 
-
+def saveBib(title, author, year):
+    
+    file = "hu-Corpus/fedBiblograthy.csv"
+    
+    with open( file , "a+") as savefile:
+    
+            text = "{}, {}, {}\n".format(author,title,year)
+    
+            savefile.write(text)
 
 
 
@@ -35,7 +43,8 @@ with open("hu-Corpus/hu-TheFederalistPapers/complete-Federalist-Paper.txt", mode
     # Remove the unseary lines
     completePapers_lines = completePapers_lines[36:]
     
-        
+    # Create bib file
+    saveBib("Title", "Author", "Year")
     
     index = 0
     paperNum = ""
@@ -44,15 +53,16 @@ with open("hu-Corpus/hu-TheFederalistPapers/complete-Federalist-Paper.txt", mode
     year = "0000"
     
     # temp 
-    completePapers_lines = completePapers_lines
+    # completePapers_lines = completePapers_lines[:548]
     
-    for line in completePapers_lines:
+
+    
+    while True:
+        index = 0
+        line = completePapers_lines[index]
         
-        # Stop the code if when you run out of lines  
-        if line[:3] == "***":
-            break
-        
-        
+    
+            
         # Get the current title
         if line[:14] == "FEDERALIST No.":
             # Extract metaa data
@@ -72,13 +82,32 @@ with open("hu-Corpus/hu-TheFederalistPapers/complete-Federalist-Paper.txt", mode
             
             text = []
             
-            # Let's Extract the content
-            while completePapers_lines[index][:14] != "FEDERALIST No.":
+    
             
+            # Let's Extract the content
+            while completePapers_lines[index][:10] != "FEDERALIST":
+                
+                # Add A break clause in when it reace the ed of the document
+                if completePapers_lines[index][:3] == "***":
+                    break
+                
                 text.append(completePapers_lines[index])
                 
                 index = index + 1
                 
+               
+            # We also must update the Author name to be consitent.
+            if author == "HAMILTON":
+                author = "Alexander Hamilton"
+            elif author == "JAY": 
+                author = "John Jay"
+            else: #We are assuming all paper marke Madison, with Hamilotn as just madison
+                author = "James Madison"
+            
+            
+            
+            saveBib('"'+title+'"', author, year)
+        
             
         
             # Changed the character to fixe fomat
@@ -87,10 +116,13 @@ with open("hu-Corpus/hu-TheFederalistPapers/complete-Federalist-Paper.txt", mode
     
         
         
+        
             # Now that we got all the conent we may save it
             saveFile(title, author, year, text )
             
     
             # Now we need to remove all the lines up to that point
             completePapers_lines = completePapers_lines[index:]
-            
+        
+    
+    exit()

@@ -1363,7 +1363,7 @@ FEDERALIST No. 8
 
 The Consequences of Hostilities Between the States
 
-From the New York Packet. Tuesday, November 20, 17[0-9][0-9]
+From the New York Packet. Tuesday, November 20, 1787
 
 HAMILTON
 
@@ -3555,7 +3555,9 @@ PUBLIUS
 
 FEDERALIST No. 18
 
-The Same Subject Continued (The Insufficiency of the Present Confederation to Preserve the Union) For the New York Packet. Friday, December 7, 1787
+The Same Subject Continued (The Insufficiency of the Present Confederation to Preserve the Union) For the New York Packet.
+
+Friday, December 7, 1787
 
 MADISON, with HAMILTON
 
