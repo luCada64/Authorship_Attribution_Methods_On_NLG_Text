@@ -1,5 +1,5 @@
 # The goal of this code is to run the data algorithm
-from fas
+from faststylometry import Corpus
 
 
 
