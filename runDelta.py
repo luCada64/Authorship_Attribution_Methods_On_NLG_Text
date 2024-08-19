@@ -1,18 +1,26 @@
 # The goal of this code is to run the data algorithm
 
-# Packages
+# Modules
+
+# Genral modules
 import os
 import re
 
+# To Run Detal
 from faststylometry import Corpus
 from faststylometry.burrows_delta import calculate_burrows_delta
-from faststylometry.util import load_corpus_from_folder
 from faststylometry.en import tokenise_remove_pronouns_en
 from faststylometry.burrows_delta import calculate_burrows_delta
+
+# For Visulisation
+import seaborn as sns
+import matplotlib.pyplot as plt
 
 
 hu_corpus_path = "hu-Corpus/hu-TheFederalistPapers"
 ai_corpus_path = "ai-Corpus/ai-FederalistPaper"
+outputDataPath = "outputData/TheFederalistPapers/"
+
 
 # Create a function to takes a camelCase string and seperate it by " "
 def camelCaseToNormal(string):
@@ -69,7 +77,7 @@ for root, _, files in os.walk(hu_corpus_path):
             author = camelCaseToNormal(author)
             
 
-            ai_corpus.add_book(author, title, text)
+            ai_corpus.add_book(author, "AI" + title, text)
 
 
 
@@ -79,11 +87,21 @@ ai_corpus.tokenise(tokenise_remove_pronouns_en)
 
 
 
+hu_corpus 
+
+# We used the AI, traing data as our test data. 
+
 probatlities = calculate_burrows_delta(hu_corpus, ai_corpus)
 
 print(probatlities)
 
 
-probatlities.to_excel()
+probatlities.to_csv(outputDataPath+"spreadsheet.csv")
+
 
 # Visualise
+
+# Were going to use seaborn as our visulsation data
+
+sns.heatmap(flights_matrix, cmap="YlGnBu", annot=True, fmt="0.0f")
+plt.show()
