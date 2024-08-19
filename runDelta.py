@@ -14,13 +14,21 @@ from faststylometry.burrows_delta import calculate_burrows_delta
 hu_corpus_path = "hu-Corpus/hu-TheFederalistPapers"
 ai_corpus_path = "ai-Corpus/ai-FederalistPaper"
 
+# Create a function to takes a camelCase string and seperate it by " "
+def camelCaseToNormal(string):
+    
+    outputString = ""
+    
+    for letter in string:
+        
+        # Check if there is a capital letter, if so add a space
+        if re.search("[A-Z]", letter): outputString = outputString + " "
+            
+        # add the letter to the output
+        outputString = outputString + letter
 
-# Reads in the authors
-data = [
-    dict(author="Fred", title="Fred's wonderfull life", text="Fred had a good life"),
-    dict(author="ai", title="Fred's wonderfull life", text="Computer made Fred's life better"),
-    dict(author="Steve", title="Steve: the dud", text="Steve knows Fred was really a dud") 
-]
+
+    return outputString
 
 
 # Load the text into corpus:
@@ -37,6 +45,11 @@ for root, _, files in os.walk(hu_corpus_path):
                 
             _, author, title, year= re.split("---", re.sub(r'\.txt', '', filename))
 
+            # Remove the spaces
+            title = camelCaseToNormal(title)
+            author = camelCaseToNormal(author)
+        
+
             hu_corpus.add_book(author, title, text)
 
 # AI Corpus
@@ -51,8 +64,15 @@ for root, _, files in os.walk(hu_corpus_path):
                 
             _, author, title, year= re.split("---", re.sub(r'\.txt', '', filename))
 
-            hu_corpus.add_book(author, title, text)
+            # Remove the spaces
+            title = camelCaseToNormal(title)
+            author = camelCaseToNormal(author)
+            
 
+            ai_corpus.add_book(author, title, text)
+
+
+print(ai_corpus.books)
 
 
 
