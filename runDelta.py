@@ -72,27 +72,18 @@ for root, _, files in os.walk(hu_corpus_path):
             ai_corpus.add_book(author, title, text)
 
 
-print(ai_corpus.books)
+
+
+hu_corpus.tokenise(tokenise_remove_pronouns_en)
+ai_corpus.tokenise(tokenise_remove_pronouns_en)
 
 
 
-# # Load the human data form the the folder
-# hu_corpus = load_corpus_from_folder("")
-# ai_corpus = load_corpus_from_folder("ai-Corpus/ai-FederalistPaper")
+probatlities = calculate_burrows_delta(hu_corpus, ai_corpus)
 
-# print(hu_corpus.books)
+print(probatlities)
 
 
-# hu_corpus.tokenise(tokenise_remove_pronouns_en)
-# ai_corpus.tokenise(tokenise_remove_pronouns_en)
-
-
-
-# probatlities = calculate_burrows_delta(hu_corpus, ai_corpus)
-
-# print(probatlities)
-
-
-
+probatlities.to_excel()
 
 # Visualise
