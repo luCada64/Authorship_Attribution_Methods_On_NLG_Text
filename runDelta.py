@@ -13,6 +13,7 @@ from faststylometry.en import tokenise_remove_pronouns_en
 from faststylometry.burrows_delta import calculate_burrows_delta
 
 # For Visulisation
+import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 
@@ -82,26 +83,73 @@ for root, _, files in os.walk(hu_corpus_path):
 
 
 
+
+
+
+
+
+# Now that we got our data we can cacluclate burrows delta and visulise it
+
+# Tokenisation is nesseary
 hu_corpus.tokenise(tokenise_remove_pronouns_en)
 ai_corpus.tokenise(tokenise_remove_pronouns_en)
 
 
-
-hu_corpus 
-
 # We used the AI, traing data as our test data. 
-
 probatlities = calculate_burrows_delta(hu_corpus, ai_corpus)
 
 print(probatlities)
 
-
+# We can save the data as csv so that it can be view later
 probatlities.to_csv(outputDataPath+"spreadsheet.csv")
+
+# Unfortuntly this data is way to dens to esaly desplay. 
+# To avoid this were going to condence the data.
+# Instead of showing each indivdual text were going to use who the AI was impersentaing 
+
+# So the way were going to do this is a bit silly, because the data is in altthecical order we will use a loop
+
+humanReadableProbablity = probatlities
+
+i = 0
+previousAuthor = ""
+
+for authorAndTitle in probatlities.head():
+    
+    author = ""
+    # Get the Author
+    for letter in authorAndTitle:
+        if letter == "-": break
+
+        author = author + letter
+    
+    author = author[1:-1]
+    
+    # Check if the author is the same the previous one
+    # We can add 
+    if previousAuthor == "": 
+        previousAuthor = author
+    
+    
+    if author == previousAuthor:
+        i = i + 1
+    else:
+        print(previousAuthor+": " + str(i))
+        i = 0
+        
+        previousAuthor = author
+
+print(previousAuthor+": " + str(i))
+
+
+
+
+print(humanReadableProbablity)
 
 
 # Visualise
 
 # Were going to use seaborn as our visulsation data
 
-sns.heatmap(flights_matrix, cmap="YlGnBu", annot=True, fmt="0.0f")
-plt.show()
+# sns.heatmap(probatlities, cmap="YlGnBu", annot=True, fmt="0.0f")
+# plt.savefig(outputDataPath+"AllData.png", dpi="700")
