@@ -53,6 +53,7 @@ def getAuthorFromTitle(authorAndTitle):
 
 
 
+
 # Load the text into corpus:
 
 # Human corpus
@@ -109,11 +110,9 @@ ai_corpus.tokenise(tokenise_remove_pronouns_en)
 
 
 # We used the AI, traing data as our test data. 
-probatlities = calculate_burrows_delta(hu_corpus, ai_corpus)
+burrows_delta_score = calculate_burrows_delta(hu_corpus, ai_corpus)
 
 
-# We can save the data as csv so that it can be view later
-probatlities.to_csv(outputDataPath+"spreadsheet.csv")
 
 # Unfortuntly this data is way to dens to esaly desplay. 
 # To avoid this were going to condence the data.
@@ -125,7 +124,7 @@ previousAuthor = ""
 
 
 # We need to get every author and calculate a tally
-for authorAndTitle in probatlities.head():
+for authorAndTitle in burrows_delta_score.head():
     
     author = getAuthorFromTitle(authorAndTitle)
     
@@ -141,8 +140,7 @@ for authorAndTitle in probatlities.head():
         
     
 # First were going to transpose the data frame
-trans_probablities = probatlities.transpose()
-
+trans_probablities = burrows_delta_score.transpose()
 
 
 # print(trans_probablities)
@@ -156,7 +154,7 @@ trans_probablities.insert(1, "Author", names)
 
 
 
-avr_prob = pd.DataFrame(index=authors, columns=authors, dtype="float64")
+avg_burrows_delta_score = pd.DataFrame(index=authors, columns=authors, dtype="float64")
 
 
 
@@ -167,20 +165,40 @@ for author in authors:
     
     # Now for each author we must calculat the mean for every author
     for j_author in authors:
-        avr_prob[author][j_author] = author_data[" " + j_author].mean()
+        avg_burrows_delta_score[author][j_author] = author_data[" " + j_author].mean()
         
     # print(author_data[" Alexander Hamilton"].mean())
 
-avr_prob.to_csv(outputDataPath+"avr_prob.csv")
+
+
+# Visulise and save the data
+
+# Save the values to csv
+avg_burrows_delta_score.to_csv(outputDataPath+"avr_prob.csv")
+burrows_delta_score.to_csv(outputDataPath+"spreadsheet.csv")
+
+pd.set_option("display.max_columns", None)
+
+# Save the pandas . descirbe values
+with open(outputDataPath+"avg_burrows_delta_score.txt", "w") as savefile: 
+    savefile.write(str(avg_burrows_delta_score.describe() ))
+with open(outputDataPath+"burrows_delta_score.txt", "w") as savefile:
+    savefile.write(str(burrows_delta_score.describe(include= 'all') ))
 
 
 
-# Visualise
+
+
+
+
+
+
+
 
 # Were going to use seaborn as our visulsation data
 
 
-plot = sns.heatmap(avr_prob, annot=avr_prob, cmap="YlGnBu" ) 
+plot = sns.heatmap(avg_burrows_delta_score, annot=True, square=True, cmap="YlGnBu" , fmt=".5f" ) 
 
 plot.set_title("Burros Delta Similarity Score (lower = more similar)", pad=20)
 plot.set_xlabel("Actual Human Author", labelpad=5)
@@ -189,4 +207,5 @@ plot.set_ylabel("Delta Score, for impersonated author",labelpad=10)
 
 
 # Save the figers
-plt.savefig(outputDataPath+"burrows_mean_probaltities_svg", format="svg" )
+# plt.show()
+plt.savefig(outputDataPath+"burrows_mean_probaltities.png", format="png")

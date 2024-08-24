@@ -1,0 +1,849 @@
+        Alexander Hamilton - AI Federalist No1 General Introduction  \
+count                                           3.000000              
+mean                                            2.276367              
+std                                             0.099475              
+min                                             2.206935              
+25%                                             2.219386              
+50%                                             2.231838              
+75%                                             2.311083              
+max                                             2.390328              
+
+        Alexander Hamilton - AI Federalist No11 The Utility Of The Union In Respect To Commercial Relations And A Navy  \
+count                                           3.000000                                                                 
+mean                                            1.805935                                                                 
+std                                             0.141210                                                                 
+min                                             1.704768                                                                 
+25%                                             1.725272                                                                 
+50%                                             1.745776                                                                 
+75%                                             1.856519                                                                 
+max                                             1.967262                                                                 
+
+        Alexander Hamilton - AI Federalist No12 The Utility Of The Union In Respect To Revenue  \
+count                                           3.000000                                         
+mean                                            2.628189                                         
+std                                             0.319677                                         
+min                                             2.349092                                         
+25%                                             2.453805                                         
+50%                                             2.558518                                         
+75%                                             2.767737                                         
+max                                             2.976955                                         
+
+        Alexander Hamilton - AI Federalist No13 Advantage Of The Union In Respect To Economy In Government  \
+count                                           3.000000                                                     
+mean                                            3.407595                                                     
+std                                             0.137745                                                     
+min                                             3.257121                                                     
+25%                                             3.347660                                                     
+50%                                             3.438199                                                     
+75%                                             3.482831                                                     
+max                                             3.527464                                                     
+
+        Alexander Hamilton - AI Federalist No15 The Insufficiency Of The Present Confederation To Preserve The Union  \
+count                                           3.000000                                                               
+mean                                            2.567134                                                               
+std                                             0.381029                                                               
+min                                             2.199650                                                               
+25%                                             2.370502                                                               
+50%                                             2.541353                                                               
+75%                                             2.750876                                                               
+max                                             2.960398                                                               
+
+        Alexander Hamilton - AI Federalist No16 The Same Subject Continued The Insufficiency Of The Present Confederation To Preserve The Union  \
+count                                           3.000000                                                                                          
+mean                                            2.760695                                                                                          
+std                                             0.393671                                                                                          
+min                                             2.378175                                                                                          
+25%                                             2.558722                                                                                          
+50%                                             2.739270                                                                                          
+75%                                             2.951956                                                                                          
+max                                             3.164641                                                                                          
+
+        Alexander Hamilton - AI Federalist No17 The Same Subject Continued The Insufficiency Of The Present Confederation To Preserve The Union  \
+count                                           3.000000                                                                                          
+mean                                            2.554878                                                                                          
+std                                             0.114480                                                                                          
+min                                             2.486079                                                                                          
+25%                                             2.488802                                                                                          
+50%                                             2.491525                                                                                          
+75%                                             2.589278                                                                                          
+max                                             2.687031                                                                                          
+
+        Alexander Hamilton - AI Federalist No21 Other Defects Of The Present Confederation  \
+count                                           3.000000                                     
+mean                                            2.423561                                     
+std                                             0.379329                                     
+min                                             2.115956                                     
+25%                                             2.211638                                     
+50%                                             2.307319                                     
+75%                                             2.577364                                     
+max                                             2.847409                                     
+
+        Alexander Hamilton - AI Federalist No22 The Same Subject Continued Other Defects Of The Present Confederation  \
+count                                           3.000000                                                                
+mean                                            1.817660                                                                
+std                                             0.451727                                                                
+min                                             1.407273                                                                
+25%                                             1.575650                                                                
+50%                                             1.744026                                                                
+75%                                             2.022853                                                                
+max                                             2.301680                                                                
+
+        Alexander Hamilton - AI Federalist No23 The Necessity Of A Government As Energetic As The One Proposed To The Preservation Of The Union  \
+count                                           3.000000                                                                                          
+mean                                            2.751326                                                                                          
+std                                             0.242645                                                                                          
+min                                             2.586141                                                                                          
+25%                                             2.612035                                                                                          
+50%                                             2.637928                                                                                          
+75%                                             2.833919                                                                                          
+max                                             3.029909                                                                                          
+
+        Alexander Hamilton - AI Federalist No24 The Powers Necessary To The Common Defense Further Considered  \
+count                                           3.000000                                                        
+mean                                            2.086299                                                        
+std                                             0.297643                                                        
+min                                             1.777474                                                        
+25%                                             1.943781                                                        
+50%                                             2.110089                                                        
+75%                                             2.240711                                                        
+max                                             2.371333                                                        
+
+        Alexander Hamilton - AI Federalist No25 The Same Subject Continued The Powers Necessary To The Common Defense Further Considered  \
+count                                           3.000000                                                                                   
+mean                                            1.988164                                                                                   
+std                                             0.235145                                                                                   
+min                                             1.848951                                                                                   
+25%                                             1.852418                                                                                   
+50%                                             1.855885                                                                                   
+75%                                             2.057770                                                                                   
+max                                             2.259656                                                                                   
+
+        Alexander Hamilton - AI Federalist No26 The Idea Of Restraining The Legislative Authority In Regard To The Common Defense Considered  \
+count                                           3.000000                                                                                       
+mean                                            1.814005                                                                                       
+std                                             0.297603                                                                                       
+min                                             1.477223                                                                                       
+25%                                             1.700225                                                                                       
+50%                                             1.923227                                                                                       
+75%                                             1.982396                                                                                       
+max                                             2.041565                                                                                       
+
+        Alexander Hamilton - AI Federalist No27 The Same Subject Continued The Idea Of Restraining The Legislative Authority In Regard To The Common Defense Considered  \
+count                                           3.000000                                                                                                                  
+mean                                            3.263391                                                                                                                  
+std                                             0.109941                                                                                                                  
+min                                             3.142691                                                                                                                  
+25%                                             3.216182                                                                                                                  
+50%                                             3.289672                                                                                                                  
+75%                                             3.323742                                                                                                                  
+max                                             3.357811                                                                                                                  
+
+        Alexander Hamilton - AI Federalist No28 The Same Subject Continued The Idea Of Restraining The Legislative Authority In Regard To The Common Defense Considered  \
+count                                           3.000000                                                                                                                  
+mean                                            2.913310                                                                                                                  
+std                                             0.394715                                                                                                                  
+min                                             2.535663                                                                                                                  
+25%                                             2.708403                                                                                                                  
+50%                                             2.881143                                                                                                                  
+75%                                             3.102133                                                                                                                  
+max                                             3.323124                                                                                                                  
+
+        Alexander Hamilton - AI Federalist No29 Concerning The Militia  \
+count                                           3.000000                 
+mean                                            2.374492                 
+std                                             0.246072                 
+min                                             2.091036                 
+25%                                             2.295102                 
+50%                                             2.499168                 
+75%                                             2.516220                 
+max                                             2.533272                 
+
+        Alexander Hamilton - AI Federalist No30 Concerning The General Power Of Taxation  \
+count                                           3.000000                                   
+mean                                            2.676927                                   
+std                                             0.310754                                   
+min                                             2.356936                                   
+25%                                             2.526621                                   
+50%                                             2.696307                                   
+75%                                             2.836922                                   
+max                                             2.977537                                   
+
+        Alexander Hamilton - AI Federalist No31 The Same Subject Continued Concerning The General Power Of Taxation  \
+count                                           3.000000                                                              
+mean                                            2.134189                                                              
+std                                             0.268527                                                              
+min                                             1.906745                                                              
+25%                                             1.986075                                                              
+50%                                             2.065405                                                              
+75%                                             2.247911                                                              
+max                                             2.430417                                                              
+
+        Alexander Hamilton - AI Federalist No32 The Same Subject Continued Concerning The General Power Of Taxation  \
+count                                           3.000000                                                              
+mean                                            3.248291                                                              
+std                                             0.311483                                                              
+min                                             2.975653                                                              
+25%                                             3.078553                                                              
+50%                                             3.181452                                                              
+75%                                             3.384610                                                              
+max                                             3.587768                                                              
+
+        Alexander Hamilton - AI Federalist No33 The Same Subject Continued Concerning The General Power Of Taxation  \
+count                                           3.000000                                                              
+mean                                            2.525832                                                              
+std                                             0.291312                                                              
+min                                             2.242170                                                              
+25%                                             2.376630                                                              
+50%                                             2.511090                                                              
+75%                                             2.667662                                                              
+max                                             2.824235                                                              
+
+        Alexander Hamilton - AI Federalist No34 The Same Subject Continued Concerning The General Power Of Taxation  \
+count                                           3.000000                                                              
+mean                                            1.994738                                                              
+std                                             0.273055                                                              
+min                                             1.712204                                                              
+25%                                             1.863503                                                              
+50%                                             2.014802                                                              
+75%                                             2.136005                                                              
+max                                             2.257208                                                              
+
+        Alexander Hamilton - AI Federalist No35 The Same Subject Continued Concerning The General Power Of Taxation  \
+count                                           3.000000                                                              
+mean                                            1.645250                                                              
+std                                             0.070797                                                              
+min                                             1.588628                                                              
+25%                                             1.605561                                                              
+50%                                             1.622494                                                              
+75%                                             1.673560                                                              
+max                                             1.724627                                                              
+
+        Alexander Hamilton - AI Federalist No36 The Same Subject Continued Concerning The General Power Of Taxation  \
+count                                           3.000000                                                              
+mean                                            2.370767                                                              
+std                                             0.440490                                                              
+min                                             1.932055                                                              
+25%                                             2.149644                                                              
+50%                                             2.367233                                                              
+75%                                             2.590123                                                              
+max                                             2.813014                                                              
+
+        Alexander Hamilton - AI Federalist No59 Concerning The Power Of Congress To Regulate The Election Of Members  \
+count                                           3.000000                                                               
+mean                                            2.837696                                                               
+std                                             0.379063                                                               
+min                                             2.430532                                                               
+25%                                             2.666350                                                               
+50%                                             2.902167                                                               
+75%                                             3.041278                                                               
+max                                             3.180388                                                               
+
+        Alexander Hamilton - AI Federalist No6 Concerning Dangers From Dissensions Between The States  \
+count                                           3.000000                                                
+mean                                            2.949291                                                
+std                                             0.036885                                                
+min                                             2.912616                                                
+25%                                             2.930746                                                
+50%                                             2.948875                                                
+75%                                             2.967629                                                
+max                                             2.986383                                                
+
+        Alexander Hamilton - AI Federalist No60 The Same Subject Continued Concerning The Power Of Congress To Regulate The Election Of Members  \
+count                                           3.000000                                                                                          
+mean                                            1.971522                                                                                          
+std                                             0.284218                                                                                          
+min                                             1.683323                                                                                          
+25%                                             1.831490                                                                                          
+50%                                             1.979657                                                                                          
+75%                                             2.115621                                                                                          
+max                                             2.251585                                                                                          
+
+        Alexander Hamilton - AI Federalist No61 The Same Subject Continued Concerning The Power Of Congress To Regulate The Election Of Members  \
+count                                           3.000000                                                                                          
+mean                                            2.874551                                                                                          
+std                                             0.314385                                                                                          
+min                                             2.530095                                                                                          
+25%                                             2.738810                                                                                          
+50%                                             2.947525                                                                                          
+75%                                             3.046778                                                                                          
+max                                             3.146031                                                                                          
+
+        Alexander Hamilton - AI Federalist No65 The Powers Of The Senate Continued  \
+count                                           3.000000                             
+mean                                            2.147386                             
+std                                             0.156053                             
+min                                             1.968520                             
+25%                                             2.093213                             
+50%                                             2.217907                             
+75%                                             2.236820                             
+max                                             2.255733                             
+
+        Alexander Hamilton - AI Federalist No66 Objections To The Power Of The Senate To Set As A Court For Impeachments Further Considered  \
+count                                           3.000000                                                                                      
+mean                                            1.924042                                                                                      
+std                                             0.177798                                                                                      
+min                                             1.730163                                                                                      
+25%                                             1.846330                                                                                      
+50%                                             1.962497                                                                                      
+75%                                             2.020981                                                                                      
+max                                             2.079466                                                                                      
+
+        Alexander Hamilton - AI Federalist No67 The Executive Department  \
+count                                           3.000000                   
+mean                                            2.654151                   
+std                                             0.358153                   
+min                                             2.417965                   
+25%                                             2.448104                   
+50%                                             2.478243                   
+75%                                             2.772243                   
+max                                             3.066244                   
+
+        Alexander Hamilton - AI Federalist No68 The Mode Of Electing The President  \
+count                                           3.000000                             
+mean                                            2.504592                             
+std                                             0.184481                             
+min                                             2.303259                             
+25%                                             2.424127                             
+50%                                             2.544994                             
+75%                                             2.605259                             
+max                                             2.665524                             
+
+        Alexander Hamilton - AI Federalist No69 The Real Character Of The Executive  \
+count                                           3.000000                              
+mean                                            2.454366                              
+std                                             0.351256                              
+min                                             2.157210                              
+25%                                             2.260542                              
+50%                                             2.363875                              
+75%                                             2.602945                              
+max                                             2.842014                              
+
+        Alexander Hamilton - AI Federalist No7 The Same Subject Continued Concerning Dangers From Dissensions Between The States  \
+count                                           3.000000                                                                           
+mean                                            2.528731                                                                           
+std                                             0.293849                                                                           
+min                                             2.279577                                                                           
+25%                                             2.366707                                                                           
+50%                                             2.453836                                                                           
+75%                                             2.653308                                                                           
+max                                             2.852780                                                                           
+
+        Alexander Hamilton - AI Federalist No70 The Executive Department Further Considered  \
+count                                           3.000000                                      
+mean                                            2.169583                                      
+std                                             0.183163                                      
+min                                             1.982123                                      
+25%                                             2.080312                                      
+50%                                             2.178501                                      
+75%                                             2.263312                                      
+max                                             2.348124                                      
+
+        Alexander Hamilton - AI Federalist No71 The Duration In Office Of The Executive  \
+count                                           3.000000                                  
+mean                                            2.173562                                  
+std                                             0.079380                                  
+min                                             2.082891                                  
+25%                                             2.145082                                  
+50%                                             2.207274                                  
+75%                                             2.218898                                  
+max                                             2.230523                                  
+
+        Alexander Hamilton - AI Federalist No72 The Same Subject Continued And Re Eligibility Of The Executive Considered  \
+count                                           3.000000                                                                    
+mean                                            2.042270                                                                    
+std                                             0.220951                                                                    
+min                                             1.898990                                                                    
+25%                                             1.915041                                                                    
+50%                                             1.931093                                                                    
+75%                                             2.113911                                                                    
+max                                             2.296729                                                                    
+
+        Alexander Hamilton - AI Federalist No73 The Provision For The Support Of The Executive And The Veto Power  \
+count                                           3.000000                                                            
+mean                                            1.995350                                                            
+std                                             0.254490                                                            
+min                                             1.729796                                                            
+25%                                             1.874474                                                            
+50%                                             2.019152                                                            
+75%                                             2.128128                                                            
+max                                             2.237103                                                            
+
+        Alexander Hamilton - AI Federalist No74 The Command Of The Military And Naval Forces And The Pardoning Power Of The Executive  \
+count                                           3.000000                                                                                
+mean                                            2.711194                                                                                
+std                                             0.300348                                                                                
+min                                             2.458538                                                                                
+25%                                             2.545155                                                                                
+50%                                             2.631772                                                                                
+75%                                             2.837522                                                                                
+max                                             3.043272                                                                                
+
+        Alexander Hamilton - AI Federalist No75 The Treaty Making Power Of The Executive  \
+count                                           3.000000                                   
+mean                                            2.497143                                   
+std                                             0.305325                                   
+min                                             2.175361                                   
+25%                                             2.354315                                   
+50%                                             2.533269                                   
+75%                                             2.658034                                   
+max                                             2.782798                                   
+
+        Alexander Hamilton - AI Federalist No76 The Appointing Power Of The Executive  \
+count                                           3.000000                                
+mean                                            2.263338                                
+std                                             0.249822                                
+min                                             2.001351                                
+25%                                             2.145559                                
+50%                                             2.289767                                
+75%                                             2.394331                                
+max                                             2.498894                                
+
+        Alexander Hamilton - AI Federalist No77 The Appointing Power Continued And Other Powers Of The Executive Considered  \
+count                                           3.000000                                                                      
+mean                                            2.357875                                                                      
+std                                             0.378922                                                                      
+min                                             1.949823                                                                      
+25%                                             2.187483                                                                      
+50%                                             2.425144                                                                      
+75%                                             2.561901                                                                      
+max                                             2.698657                                                                      
+
+        Alexander Hamilton - AI Federalist No78 The Judiciary Department  \
+count                                           3.000000                   
+mean                                            2.333760                   
+std                                             0.298107                   
+min                                             2.056603                   
+25%                                             2.176075                   
+50%                                             2.295547                   
+75%                                             2.472339                   
+max                                             2.649131                   
+
+        Alexander Hamilton - AI Federalist No79 The Judiciary Continued  \
+count                                           3.000000                  
+mean                                            3.439906                  
+std                                             0.290213                  
+min                                             3.160839                  
+25%                                             3.289804                  
+50%                                             3.418768                  
+75%                                             3.579439                  
+max                                             3.740110                  
+
+        Alexander Hamilton - AI Federalist No8 The Consequences Of Hostilities Between The States  \
+count                                           3.000000                                            
+mean                                            2.044991                                            
+std                                             0.331072                                            
+min                                             1.749154                                            
+25%                                             1.866188                                            
+50%                                             1.983222                                            
+75%                                             2.192910                                            
+max                                             2.402598                                            
+
+        Alexander Hamilton - AI Federalist No80 The Powers Of The Judiciary  \
+count                                           3.000000                      
+mean                                            2.377309                      
+std                                             0.398616                      
+min                                             2.135498                      
+25%                                             2.147268                      
+50%                                             2.159038                      
+75%                                             2.498214                      
+max                                             2.837390                      
+
+        Alexander Hamilton - AI Federalist No81 The Judiciary Continued And The Distribution Of The Judicial Authority  \
+count                                           3.000000                                                                 
+mean                                            2.040685                                                                 
+std                                             0.472773                                                                 
+min                                             1.654713                                                                 
+25%                                             1.777022                                                                 
+50%                                             1.899331                                                                 
+75%                                             2.233671                                                                 
+max                                             2.568012                                                                 
+
+        Alexander Hamilton - AI Federalist No82 The Judiciary Continued  \
+count                                           3.000000                  
+mean                                            3.207293                  
+std                                             0.300489                  
+min                                             2.985970                  
+25%                                             3.036252                  
+50%                                             3.086534                  
+75%                                             3.317955                  
+max                                             3.549377                  
+
+        Alexander Hamilton - AI Federalist No83 The Judiciary Continued In Relation To Trial By Jury  \
+count                                           3.000000                                               
+mean                                            1.900871                                               
+std                                             0.347675                                               
+min                                             1.606466                                               
+25%                                             1.709083                                               
+50%                                             1.811701                                               
+75%                                             2.048073                                               
+max                                             2.284446                                               
+
+        Alexander Hamilton - AI Federalist No84 Certain General And Miscellaneous Objections To The Constitution Considered And Answered  \
+count                                           3.000000                                                                                   
+mean                                            1.870760                                                                                   
+std                                             0.375364                                                                                   
+min                                             1.620213                                                                                   
+25%                                             1.654975                                                                                   
+50%                                             1.689737                                                                                   
+75%                                             1.996034                                                                                   
+max                                             2.302330                                                                                   
+
+        Alexander Hamilton - AI Federalist No85 Concluding Remarks  \
+count                                           3.000000             
+mean                                            2.647528             
+std                                             0.487769             
+min                                             2.288018             
+25%                                             2.369912             
+50%                                             2.451807             
+75%                                             2.827284             
+max                                             3.202760             
+
+        Alexander Hamilton - AI Federalist No9 The Union As A Safeguard Against Domestic Faction And Insurrection  \
+count                                           3.000000                                                            
+mean                                            2.564681                                                            
+std                                             0.225084                                                            
+min                                             2.424869                                                            
+25%                                             2.434857                                                            
+50%                                             2.444845                                                            
+75%                                             2.634587                                                            
+max                                             2.824330                                                            
+
+        James Madison - AI Federalist No10 The Same Subject Continued The Union As A Safeguard Against Domestic Faction And Insurrection  \
+count                                           3.000000                                                                                   
+mean                                            1.961613                                                                                   
+std                                             0.218160                                                                                   
+min                                             1.710206                                                                                   
+25%                                             1.891881                                                                                   
+50%                                             2.073556                                                                                   
+75%                                             2.087317                                                                                   
+max                                             2.101078                                                                                   
+
+        James Madison - AI Federalist No14 Objections To The Proposed Constitution From Extent Of Territory Answered  \
+count                                           3.000000                                                               
+mean                                            2.280061                                                               
+std                                             0.288921                                                               
+min                                             2.094154                                                               
+25%                                             2.113632                                                               
+50%                                             2.133110                                                               
+75%                                             2.373015                                                               
+max                                             2.612919                                                               
+
+        James Madison - AI Federalist No18 The Same Subject Continued The Insufficiency Of The Present Confederation To Preserve The Union For The New York Packet  \
+count                                           3.000000                                                                                                             
+mean                                            3.715671                                                                                                             
+std                                             0.139805                                                                                                             
+min                                             3.559176                                                                                                             
+25%                                             3.659390                                                                                                             
+50%                                             3.759603                                                                                                             
+75%                                             3.793918                                                                                                             
+max                                             3.828233                                                                                                             
+
+        James Madison - AI Federalist No19 The Same Subject Continued The Insufficiency Of The Present Confederation To Preserve The Union  \
+count                                           3.000000                                                                                     
+mean                                            3.023118                                                                                     
+std                                             0.176688                                                                                     
+min                                             2.834491                                                                                     
+25%                                             2.942295                                                                                     
+50%                                             3.050098                                                                                     
+75%                                             3.117431                                                                                     
+max                                             3.184764                                                                                     
+
+        James Madison - AI Federalist No20 The Same Subject Continued The Insufficiency Of The Present Confederation To Preserve The Union  \
+count                                           3.000000                                                                                     
+mean                                            3.575929                                                                                     
+std                                             0.215744                                                                                     
+min                                             3.357722                                                                                     
+25%                                             3.469333                                                                                     
+50%                                             3.580944                                                                                     
+75%                                             3.685033                                                                                     
+max                                             3.789122                                                                                     
+
+        James Madison - AI Federalist No37 Concerning The Difficulties Of The Convention In Devising A Proper Form Of Government  \
+count                                           3.000000                                                                           
+mean                                            2.477905                                                                           
+std                                             0.272367                                                                           
+min                                             2.177821                                                                           
+25%                                             2.362122                                                                           
+50%                                             2.546423                                                                           
+75%                                             2.627947                                                                           
+max                                             2.709471                                                                           
+
+        James Madison - AI Federalist No38 The Same Subject Continued And The Incoherence Of The Objections To The New Plan Exposed  \
+count                                           3.000000                                                                              
+mean                                            1.628667                                                                              
+std                                             0.055251                                                                              
+min                                             1.565151                                                                              
+25%                                             1.610192                                                                              
+50%                                             1.655233                                                                              
+75%                                             1.660425                                                                              
+max                                             1.665617                                                                              
+
+        James Madison - AI Federalist No39 The Conformity Of The Plan To Republican Principles  \
+count                                           3.000000                                         
+mean                                            2.633279                                         
+std                                             0.281547                                         
+min                                             2.317244                                         
+25%                                             2.521256                                         
+50%                                             2.725269                                         
+75%                                             2.791297                                         
+max                                             2.857325                                         
+
+        James Madison - AI Federalist No40 On The Powers Of The Convention To Form A Mixed Government Examined And Sustained For The New York Packet  \
+count                                           3.000000                                                                                               
+mean                                            2.208509                                                                                               
+std                                             0.280741                                                                                               
+min                                             1.918885                                                                                               
+25%                                             2.073047                                                                                               
+50%                                             2.227209                                                                                               
+75%                                             2.353321                                                                                               
+max                                             2.479432                                                                                               
+
+        James Madison - AI Federalist No41 General View Of The Powers Conferred By The Constitution  \
+count                                           3.000000                                              
+mean                                            1.964861                                              
+std                                             0.400505                                              
+min                                             1.718090                                              
+25%                                             1.733808                                              
+50%                                             1.749526                                              
+75%                                             2.088247                                              
+max                                             2.426969                                              
+
+        James Madison - AI Federalist No42 The Powers Conferred By The Constitution Further Considered  \
+count                                           3.000000                                                 
+mean                                            2.269197                                                 
+std                                             0.443088                                                 
+min                                             1.931261                                                 
+25%                                             2.018373                                                 
+50%                                             2.105485                                                 
+75%                                             2.438165                                                 
+max                                             2.770845                                                 
+
+        James Madison - AI Federalist No43 The Same Subject Continued The Powers Conferred By The Constitution Further Considered  \
+count                                           3.000000                                                                            
+mean                                            2.124200                                                                            
+std                                             0.464136                                                                            
+min                                             1.670289                                                                            
+25%                                             1.887336                                                                            
+50%                                             2.104384                                                                            
+75%                                             2.351155                                                                            
+max                                             2.597926                                                                            
+
+        James Madison - AI Federalist No44 Restrictions On The Authority Of The Several States  \
+count                                           3.000000                                         
+mean                                            2.420462                                         
+std                                             0.361834                                         
+min                                             2.169062                                         
+25%                                             2.213110                                         
+50%                                             2.257158                                         
+75%                                             2.546161                                         
+max                                             2.835164                                         
+
+        James Madison - AI Federalist No45 The Alleged Danger From The Powers Of The Union To The State Governments  \
+count                                           3.000000                                                              
+mean                                            2.244498                                                              
+std                                             0.198853                                                              
+min                                             2.086332                                                              
+25%                                             2.132880                                                              
+50%                                             2.179427                                                              
+75%                                             2.323581                                                              
+max                                             2.467735                                                              
+
+        James Madison - AI Federalist No46 The Influence Of The State And Federal Governments Compared  \
+count                                           3.000000                                                 
+mean                                            2.232245                                                 
+std                                             0.174550                                                 
+min                                             2.069074                                                 
+25%                                             2.140219                                                 
+50%                                             2.211364                                                 
+75%                                             2.313830                                                 
+max                                             2.416296                                                 
+
+        James Madison - AI Federalist No47 The Particular Structure Of The New Government And The Distribution Of Power Among Its Different Parts  \
+count                                           3.000000                                                                                            
+mean                                            2.706833                                                                                            
+std                                             0.353546                                                                                            
+min                                             2.403182                                                                                            
+25%                                             2.512765                                                                                            
+50%                                             2.622349                                                                                            
+75%                                             2.858658                                                                                            
+max                                             3.094967                                                                                            
+
+        James Madison - AI Federalist No48 These Departments Should Not Be So Far Separated As To Have No Constitutional Control Over Each Other  \
+count                                           3.000000                                                                                           
+mean                                            2.087878                                                                                           
+std                                             0.357780                                                                                           
+min                                             1.708054                                                                                           
+25%                                             1.922554                                                                                           
+50%                                             2.137055                                                                                           
+75%                                             2.277790                                                                                           
+max                                             2.418525                                                                                           
+
+        James Madison - AI Federalist No49 Method Of Guarding Against The Encroachments Of Any One Department Of Government By Appealing To The People Through A Convention  \
+count                                           3.000000                                                                                                                      
+mean                                            2.337480                                                                                                                      
+std                                             0.136396                                                                                                                      
+min                                             2.181385                                                                                                                      
+25%                                             2.289380                                                                                                                      
+50%                                             2.397376                                                                                                                      
+75%                                             2.415528                                                                                                                      
+max                                             2.433681                                                                                                                      
+
+        James Madison - AI Federalist No50 Periodical Appeals To The People Considered  \
+count                                           3.000000                                 
+mean                                            2.985250                                 
+std                                             0.158460                                 
+min                                             2.890521                                 
+25%                                             2.893782                                 
+50%                                             2.897044                                 
+75%                                             3.032615                                 
+max                                             3.168186                                 
+
+        James Madison - AI Federalist No51 The Structure Of The Government Must Furnish The Proper Checks And Balances Between The Different Departments  \
+count                                           3.000000                                                                                                   
+mean                                            3.197724                                                                                                   
+std                                             0.279774                                                                                                   
+min                                             2.890139                                                                                                   
+25%                                             3.078059                                                                                                   
+50%                                             3.265980                                                                                                   
+75%                                             3.351517                                                                                                   
+max                                             3.437055                                                                                                   
+
+        James Madison - AI Federalist No52 The House Of Representatives  \
+count                                           3.000000                  
+mean                                            1.974963                  
+std                                             0.239842                  
+min                                             1.793576                  
+25%                                             1.838996                  
+50%                                             1.884416                  
+75%                                             2.065657                  
+max                                             2.246898                  
+
+        James Madison - AI Federalist No53 The Same Subject Continued The House Of Representatives  \
+count                                           3.000000                                             
+mean                                            2.458596                                             
+std                                             0.261334                                             
+min                                             2.157251                                             
+25%                                             2.376391                                             
+50%                                             2.595531                                             
+75%                                             2.609269                                             
+max                                             2.623008                                             
+
+        James Madison - AI Federalist No54 The Apportionment Of Members Among The States  \
+count                                           3.000000                                   
+mean                                            2.433315                                   
+std                                             0.305255                                   
+min                                             2.144225                                   
+25%                                             2.273720                                   
+50%                                             2.403215                                   
+75%                                             2.577860                                   
+max                                             2.752505                                   
+
+        James Madison - AI Federalist No55 The Total Number Of The House Of Representatives  \
+count                                           3.000000                                      
+mean                                            2.398792                                      
+std                                             0.109147                                      
+min                                             2.319358                                      
+25%                                             2.336564                                      
+50%                                             2.353770                                      
+75%                                             2.438509                                      
+max                                             2.523248                                      
+
+        James Madison - AI Federalist No56 The Same Subject Continued The Total Number Of The House Of Representatives  \
+count                                           3.000000                                                                 
+mean                                            2.302839                                                                 
+std                                             0.174580                                                                 
+min                                             2.160608                                                                 
+25%                                             2.205423                                                                 
+50%                                             2.250238                                                                 
+75%                                             2.373955                                                                 
+max                                             2.497672                                                                 
+
+        James Madison - AI Federalist No57 The Alleged Tendency Of The New Plan To Elevate The Few At The Expense Of The Many Considered In Connection With Representation  \
+count                                           3.000000                                                                                                                     
+mean                                            2.062774                                                                                                                     
+std                                             0.207074                                                                                                                     
+min                                             1.900255                                                                                                                     
+25%                                             1.946199                                                                                                                     
+50%                                             1.992143                                                                                                                     
+75%                                             2.144033                                                                                                                     
+max                                             2.295923                                                                                                                     
+
+        James Madison - AI Federalist No58 Objection That The Number Of Members Will Not Be Augmented As The Progress Of Population Demands  \
+count                                           3.000000                                                                                      
+mean                                            1.750420                                                                                      
+std                                             0.366492                                                                                      
+min                                             1.405775                                                                                      
+25%                                             1.557920                                                                                      
+50%                                             1.710066                                                                                      
+75%                                             1.922742                                                                                      
+max                                             2.135419                                                                                      
+
+        James Madison - AI Federalist No62 The Senate  \
+count                                        3.000000   
+mean                                         2.245470   
+std                                          0.301474   
+min                                          1.908661   
+25%                                          2.123167   
+50%                                          2.337674   
+75%                                          2.413875   
+max                                          2.490075   
+
+        James Madison - AI Federalist No63 The Senate Continued  \
+count                                           3.000000          
+mean                                            1.842628          
+std                                             0.267521          
+min                                             1.627201          
+25%                                             1.692906          
+50%                                             1.758610          
+75%                                             1.950341          
+max                                             2.142072          
+
+        John Jay - AI Federalist No2 Concerning Dangers From Foreign Force And Influence  \
+count                                           3.000000                                   
+mean                                            3.006133                                   
+std                                             0.139949                                   
+min                                             2.858737                                   
+25%                                             2.940598                                   
+50%                                             3.022460                                   
+75%                                             3.079832                                   
+max                                             3.137203                                   
+
+        John Jay - AI Federalist No3 The Same Subject Continued Concerning Dangers From Foreign Force And Influence  \
+count                                           3.000000                                                              
+mean                                            2.289531                                                              
+std                                             0.423910                                                              
+min                                             1.826402                                                              
+25%                                             2.105133                                                              
+50%                                             2.383864                                                              
+75%                                             2.521096                                                              
+max                                             2.658329                                                              
+
+        John Jay - AI Federalist No4 The Same Subject Continued Concerning Dangers From Foreign Force And Influence  \
+count                                           3.000000                                                              
+mean                                            2.763510                                                              
+std                                             0.538369                                                              
+min                                             2.170840                                                              
+25%                                             2.534106                                                              
+50%                                             2.897372                                                              
+75%                                             3.059845                                                              
+max                                             3.222318                                                              
+
+        John Jay - AI Federalist No5 The Same Subject Continued Concerning Dangers From Foreign Force And Influence  \
+count                                           3.000000                                                              
+mean                                            2.926954                                                              
+std                                             0.238396                                                              
+min                                             2.654420                                                              
+25%                                             2.842040                                                              
+50%                                             3.029659                                                              
+75%                                             3.063221                                                              
+max                                             3.096783                                                              
+
+        John Jay - AI Federalist No64 The Powers Of The Senate  
+count                                           3.000000        
+mean                                            2.195923        
+std                                             0.110494        
+min                                             2.079735        
+25%                                             2.144049        
+50%                                             2.208362        
+75%                                             2.254017        
+max                                             2.299671        
