@@ -11,36 +11,30 @@ from chatgptApiKey import OPENAI_API_KEY
 bibligorathy_loc = "hu-Corpus/fedBiblograthy.csv"
 output_loc = "ai-Corpus/ai-FederalistPaper/"
 
-# Romantic poem example
-# bibligorathy_loc = "hu-Corpus/poemsBiblograthy.csv"
-# output_loc = "ai-Corpus/ai-poem/"
 
 # If you'd like to update the promt you must edit the string named "prompt"
 
-# Section 2: Creating Prompts 
+
+# Section 2: Extracting Biblograthy
 
 
 # This seciton of willl recive the information
 authorInformation = [] # This will store all the author information
 
 # We will use the CSV file hummanBibliograthy, which contains the author name, title and year.
-humanPoems = pd.read_csv(bibligorathy_loc, escapechar='"')
+humanBib = pd.read_csv(bibligorathy_loc, escapechar='"')
 
-
-for index, row in humanPoems.iterrows():
-    poemData = dict(author=row["Author"], title=row["Title"]  ,year=row["Year"])
+# Extract all the information from the h
+for index, row in humanBib.iterrows():
+    paper = dict(author=row["Author"], title=row["Title"]  ,year=row["Year"])
     
-    authorInformation.append(poemData)
-
-
-
-# This section of the code will generate the messages for chat gpt.
-chatGPTcommands = []
+    authorInformation.append(paper)
 
 
 
 
-# Section 3: Creating Abstract
+
+# Section 3: Creating AI corpus
 
 
 # Now that we have the prompts lets generate our reponese
@@ -48,8 +42,8 @@ chatGPTcommands = []
 # Create a client for openAI chatGPT
 client = OpenAI(api_key=OPENAI_API_KEY)
 
-
-aiAbstracts = []
+# This section of the code will generate the messages for chat gpt.
+aiCorpus = [] # this list will store the list before saving
 
 
 print("Communicating with chatGPT")
@@ -74,12 +68,12 @@ for abstract in authorInformation:
     )
     
     
-    print(title, "Complete")
+    # Once the result is recived, save the data to the list of cropuses
     abstractText = completion.choices[0].message.content
   
     currentAiAbstract = dict(title = title, author = author, text = abstractText)
     
-    aiAbstracts.append(currentAiAbstract)
+    aiCorpus.append(currentAiAbstract)
     
 
 
@@ -87,9 +81,9 @@ for abstract in authorInformation:
 
 print("Saving Data")
 # For every AI abstract
-for abstract in aiAbstracts:
+for abstract in aiCorpus:
     
-    # remove the metadata
+    # extract the metadata
     author = abstract["author"]
     title = abstract["title"]
     text = abstract["text"]
@@ -100,7 +94,7 @@ for abstract in aiAbstracts:
     formatedTitle = ''.join(letter for letter in title.title() if letter.isalpha()) #Made Each word upercase for legiblity
 
     
-    
+    # Print the autohr and title to inform the user what accruings
     print(formatedAuthor,formatedTitle)
     
     
