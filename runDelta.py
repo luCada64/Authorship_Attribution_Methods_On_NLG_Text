@@ -194,14 +194,13 @@ with open(outputDataPath+"burrows_delta_score.txt", "w") as savefile:
 
 
 
-
 # Were going to use seaborn as our visulsation data as a heatmap.
 plot = sns.heatmap(avg_burrows_delta_score, annot=True, square=True, cmap="YlGnBu" , fmt=".5f" ) 
 
 # Add lables to the plot.
 plot.set_title("Burros Delta Similarity Score (lower = more similar)", pad=20)
 plot.set_xlabel("Actual Human Author", labelpad=5)
-plot.set_ylabel("Delta Score, for impersonated author",labelpad=10)
+plot.set_ylabel("Delta Score, for AI impersonated author",labelpad=10)
 
 
 # Save the figers
