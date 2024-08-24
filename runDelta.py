@@ -21,6 +21,7 @@ import matplotlib.pyplot as plt
 hu_corpus_path = "hu-Corpus/hu-TheFederalistPapers"
 ai_corpus_path = "ai-Corpus/ai-FederalistPaper"
 outputDataPath = "outputData/TheFederalistPapers/"
+showHeatmap = False
 
 
 # Create a function to takes a camelCase string and seperate it by " "
@@ -207,5 +208,5 @@ plot.set_ylabel("Delta Score, for impersonated author",labelpad=10)
 
 
 # Save the figers
-# plt.show()
+if showHeatmap: plt.show()
 plt.savefig(outputDataPath+"burrows_mean_probaltities.png", format="png")
